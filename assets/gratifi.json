@@ -1,0 +1,25 @@
+{
+"ssid": [
+    {
+        "id": "1",
+        "title": "My Hotspot",
+        
+    },
+    {
+        "id": "2",
+        "title": "Tata Docomo",
+        
+    },
+    {
+        "id": "3",
+        "title": "Airtel Network",
+        
+    },
+    {
+        "id": "4",
+        "title": "Gratifi",
+        
+    }
+  ]
+
+}

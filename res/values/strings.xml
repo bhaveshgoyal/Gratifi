@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gratifi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity2">Gratifi</string>
+    <string name="title_activity_activity3">Gratifi</string>
+    <string name="title_activity_activity4">Gratifi</string>
+    <string name="title_activity_activity5">Gratifi</string>
+    <string name="app_id">297413523763821</string>
+    <string name="api_link">http://54.149.8.166/backend/v1/index.php/</string>
+
+</resources>

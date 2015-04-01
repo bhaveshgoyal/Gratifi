@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.otp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ConnectWifiActivity"
+            android:label="WIFI" >
+        </activity>
+        <activity
+            android:name=".OTPVerificationActivity"
+            android:label="OTP" >
+        </activity>
+        <activity
+            android:name=".FBLoginActivity"
+            android:label="@string/title_activity_activity2" >
+        </activity>
+        <activity
+            android:name=".CampaignActivity"
+            android:label="@string/title_activity_activity3" >
+        </activity>
+        <activity
+            android:name=".WelcomeScreenActivity"
+            android:label="@string/title_activity_activity4" >
+        </activity>
+        <activity
+            android:name=".WebLoginActivity"
+            android:label="@string/title_activity_activity5" >
+        </activity>
+        
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+        <activity android:name="com.facebook.LoginActivity"></activity>
+        
+        <service android:name="ReenableAllApsWhenNetworkStateChanged$BackgroundService"/>
+        <service android:name="ScanService" ></service>
+    </application>
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+    
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission  android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>
